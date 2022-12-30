@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfe57e26-5002-4dbc-8f32-47f644d3889f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sintaxe-variaveis-e-fluxo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestaConversao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestaVariaveis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestaCondicional2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestaEscopo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestaFor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestaLacos2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestaWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestarLacos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TesteSomatoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,26 +46,46 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/joaom/OneDrive/Documentos/GitHub/Java/JavaOrientadoAObjetos/ConhecimentosBasicos/sintaxe-variaveis-e-fluxo/.idea",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestaConversao">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\joaom\OneDrive\Documentos\GitHub\Java\JavaOrientadoAObjetos\ConhecimentosBasicos\sintaxe-variaveis-e-fluxo\.idea" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestaLacos2">
+    <configuration name="TestaFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestaFor" />
       <module name="sintaxe-variaveis-e-fluxo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestaConversao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestaConversao" />
+    <configuration name="TestaLacos2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestaLacos2" />
       <module name="sintaxe-variaveis-e-fluxo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestaVariaveis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestaVariaveis" />
+    <configuration name="TestaWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestaWhile" />
+      <module name="sintaxe-variaveis-e-fluxo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestarLacos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestarLacos" />
+      <module name="sintaxe-variaveis-e-fluxo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteSomatoria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TesteSomatoria" />
       <module name="sintaxe-variaveis-e-fluxo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,9 +93,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestaConversao" />
-        <item itemvalue="Application.TestaVariaveis" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TestaLacos2" />
+        <item itemvalue="Application.TestarLacos" />
+        <item itemvalue="Application.TestaFor" />
+        <item itemvalue="Application.TesteSomatoria" />
+        <item itemvalue="Application.TestaWhile" />
       </list>
     </recent_temporary>
   </component>
@@ -88,5 +111,16 @@
       <updated>1672380610038</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
