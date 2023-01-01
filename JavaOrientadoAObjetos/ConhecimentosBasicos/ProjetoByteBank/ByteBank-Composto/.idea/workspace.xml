@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3184cf00-0e3c-4b33-a69a-17f90d1b0d1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ByteBank-Composto.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestaBanco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestaContaSemCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TesteSacaValoresNegativos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ByteBank-Encapsulado/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ByteBank-Encapsulado/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ByteBank-Encapsulado/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ByteBank-Encapsulado/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ByteBank-Encapsulado/ByteBank-Encapsulado.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ByteBank-Encapsulado/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
