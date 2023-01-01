@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfe57e26-5002-4dbc-8f32-47f644d3889f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TestaCondicional2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestaEscopo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestaFor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestaLacos2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestaWhile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestarLacos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TesteSomatoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjetoByteBank/ByteBank-Composto/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjetoByteBank/ByteBank-Composto/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjetoByteBank/ByteBank-Composto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjetoByteBank/ByteBank-Composto/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjetoByteBank/ByteBank-Encapsulado/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjetoByteBank/ByteBank-Encapsulado/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjetoByteBank/ByteBank-Encapsulado/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjetoByteBank/ByteBank-Encapsulado/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjetoByteBank/ByteBank-Encapsulado/src/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,11 +41,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/joaom/OneDrive/Documentos/GitHub/Java/JavaOrientadoAObjetos/ConhecimentosBasicos/sintaxe-variaveis-e-fluxo/.idea",
+    "last_opened_file_path": "C:/Users/joaom/OneDrive/Documentos/GitHub/Java/JavaOrientadoAObjetos/ConhecimentosBasicos/ProjetoByteBank/ByteBank-Inicial",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
@@ -122,5 +122,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
