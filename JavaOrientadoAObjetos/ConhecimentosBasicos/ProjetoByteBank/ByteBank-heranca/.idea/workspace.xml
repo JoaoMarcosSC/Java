@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3efa9eb4-57b2-42da-94e8-6d70998c7fb6" name="Changes" comment="" />
+    <list default="true" id="3efa9eb4-57b2-42da-94e8-6d70998c7fb6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/joaom/OneDrive/Documentos/GitHub/Java/JavaOrientadoAObjetos/ConhecimentosBasicos/ControleDeFuncionarios-heranca"
+    "last_opened_file_path": "C:/Users/joaom/OneDrive/Documentos/GitHub/Java/JavaOrientadoAObjetos/ConhecimentosBasicos/ProjetoByteBank/ByteBank-Encapsulado"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
