@@ -8,7 +8,7 @@ public class TestaReferencia {
          controle.registra(g1);
          System.out.println(controle.getSoma());
 
-         Funcionario f = new Funcionario();
+         Funcionario f = new EditorVideo();
          f.setNome("Carlos");
          f.setSalario(2000.0);
 
