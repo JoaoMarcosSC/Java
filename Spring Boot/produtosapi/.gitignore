@@ -1,0 +1,25 @@
+# Maven
+target/
+**/target/
+
+# IDEs
+.idea
+*.iml
+.vscode/
+.classpath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# Build tools
+build/
+**/build/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
