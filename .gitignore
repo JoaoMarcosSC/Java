@@ -3,3 +3,8 @@ Basico/.idea/vcs.xml
 Basico/.idea/workspace.xml
 *.xml
 Spring Boot/produtosapi/src/main/resources/application.yml
+Spring Boot/arquiteturaspring/src/main/resources/application.yaml
+Spring Boot/arquiteturaspring/.mvn/wrapper/maven-wrapper.properties
+Spring Boot/arquiteturaspring/.gitattributes
+Spring Boot/arquiteturaspring/mvnw
+Spring Boot/arquiteturaspring/mvnw.cmd
