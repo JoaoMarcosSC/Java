@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaOrientadoAObjetos/10 Arrays e Listas/Listas, for each e wrapper classes.md",
+                "file": "JavaOrientadoAObjetos/14 Tratamento de Excecoes/Tratamento de Exceções.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Listas, for each e wrapper classes"
+              "title": "Tratamento de Exceções"
             }
           }
         ],
@@ -228,8 +228,10 @@
   },
   "active": "d187506c9fab583e",
   "lastOpenFiles": [
-    "JavaOrientadoAObjetos/10 Arrays e Listas/Vetores e Comportamento de Memória.md",
     "JavaOrientadoAObjetos/10 Arrays e Listas/Listas, for each e wrapper classes.md",
+    "JavaOrientadoAObjetos/14 Tratamento de Excecoes/Tratamento de Exceções.md",
+    "JavaOrientadoAObjetos/14 Tratamento de Excecoes",
+    "JavaOrientadoAObjetos/10 Arrays e Listas/Vetores e Comportamento de Memória.md",
     "JavaOrientadoAObjetos/6 Estruturas Repetitivas/Estruturas Repetitivas.md",
     "JavaOrientadoAObjetos/13 Heranca e Polimorfismo/HerancaPolimorfismo/src/exercicio1/ProdutoUsado.java",
     "JavaOrientadoAObjetos/13 Heranca e Polimorfismo/HerancaPolimorfismo/src/exercicio1/ProdutoImportado.java",
@@ -242,7 +244,6 @@
     "JavaOrientadoAObjetos/13 Heranca e Polimorfismo",
     "JavaOrientadoAObjetos/12 Enumeracoes e Composicao/Enumerações e Composição.md",
     "JavaOrientadoAObjetos/12 Enumeracoes e Composicao",
-    "JavaOrientadoAObjetos/10 Arrays e Listas/ArraysListas/src/exercicioLista1/Funcionários.java~",
     "JavaOrientadoAObjetos/9 Construtores, This, Sobrecarga, Encapsulamento/Construtores, This, Sobrecarga, Encapsulamento.md"
   ]
 }
