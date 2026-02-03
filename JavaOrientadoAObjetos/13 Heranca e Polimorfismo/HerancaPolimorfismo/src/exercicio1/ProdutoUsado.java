@@ -1,21 +1,22 @@
 package exercicio1;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public class ProdutoUsado extends Produto {
 
-    Date dataFabricacao;
+    LocalDate dataFabricacao;
 
-    public ProdutoUsado(String nome, double price, Date dataFabricacao) {
+    public ProdutoUsado(String nome, double price, LocalDate dataFabricacao) {
         super(nome, price);
         this.dataFabricacao = dataFabricacao;
     }
 
-    public Date getDataFabricacao() {
+    public LocalDate getDataFabricacao() {
         return dataFabricacao;
     }
 
-    public void setDataFabricacao(Date dataFabricacao) {
+    public void setDataFabricacao(LocalDate dataFabricacao) {
         this.dataFabricacao = dataFabricacao;
     }
 
