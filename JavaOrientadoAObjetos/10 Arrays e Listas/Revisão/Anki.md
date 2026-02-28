@@ -13,7 +13,7 @@ Justificativa: Em Java, classes são tipos referência. Quando fazemos p2 = p1, 
 
 Qual é a principal diferença de comportamento entre tipos primitivos (como int, double) e tipos referência (classes) em relação à atribuição e valores nulos?
 A. Tipos primitivos podem receber o valor null, enquanto tipos referência não podem. 
-B. Na atribuição y = x, tipos referência recebem uma cópia do valor, enquanto tipos primitivos passam a apontar para o mesmo endereço. 
+B. Na atribuição y = x, tipos referência recebem uma cópia do valor, enquanto tipos primitivos passam a apontar para o mesmo endereço. ****
 C. Tipos referência aceitam o valor null e variáveis são ponteiros; tipos primitivos não aceitam null e variáveis são "caixas" que guardam o valor. 
 D. Tipos primitivos são instanciados no Heap usando a palavra-chave #flashcard
 Resposta Correta: C
@@ -89,7 +89,7 @@ D. for (int i : nomes.length) { ... } #flashcard
 Resposta Correta: C
 Justificativa: A sintaxe do for-each em Java é for (Tipo apelido : coleção), onde "Tipo" é o tipo dos elementos, "apelido" é a variável local e "coleção" é o array ou lista a ser percorrido.
 <!--ID: 1771252689358-->
-
+****************
 
 Sobre a interface List e a classe ArrayList, qual das alternativas é FALSA?
 A. A lista inicia vazia e seus elementos são alocados sob demanda. 

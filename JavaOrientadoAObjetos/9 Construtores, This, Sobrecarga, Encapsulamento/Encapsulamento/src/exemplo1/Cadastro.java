@@ -1,4 +1,4 @@
-package exemplo1;
+package src.exemplo1;
 
 import exemplo1.entities.ContaBancaria;
 
