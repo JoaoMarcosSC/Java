@@ -9,13 +9,35 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 //@RestController
 public class ProdutosApiApplication {
 
-	/*@GetMapping("/hello-world")
+	/*
+	@GetMapping("/hello-world")
 	public String helloWorld(){
 		return "Hello World!";
-	}*/
+	}
+	*/
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProdutosApiApplication.class, args);
 	}
+
+	/*
+	Controller
+	buscar --
+	list Produto --
+
+	Repository --
+	findByNome --
+
+	banco
+	select --
+
+	Postman
+	buscar --
+	queryParams --
+
+
+	Aula: 20
+	Minuto: 7:14
+	 */
 
 }

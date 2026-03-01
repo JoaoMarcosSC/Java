@@ -11,7 +11,7 @@ que permite que os métodos da própria classe retornem valores diretamente como
 
 A anotação `@GetMapping` é responsável por mapear requisições HTTP do tipo GET para um método específico. Ela define qual URL será associada ao método e sob quais condições ele será executado. **No código, esse mapeamento ocorre no trecho:**  
 `@GetMapping("/hello-world")`  
-que associa o caminho `/hello-world` ao método `helloeWorld`. Quando esse método é executado, ele retorna a String `"Hello World!"`, definida no trecho:  
+que associa o caminho `/hello-world` ao método `helloWorld`. Quando esse método é executado, ele retorna a String `"Hello World!"`, definida no trecho:  
 `return "Hello World!";`  
 Esse valor é enviado diretamente ao cliente por conta do uso do `@RestController`.
 

@@ -6,15 +6,14 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "produto")
-
+@Table
 public class Produto {
 
+    @Column
     @Id
-    @Column(name = "id")
     private String id;
 
-    @Column
+    @Column(name = "nome")
     private String nome;
 
     @Column
@@ -51,18 +50,17 @@ public class Produto {
         return preco;
     }
 
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+
     @Override
     public String toString() {
         return "Produto{" +
-                "id='" + id + '\'' +
+                "id=" + id +
                 ", nome='" + nome + '\'' +
                 ", descricao='" + descricao + '\'' +
                 ", preco=" + preco +
                 '}';
-    }
-
-    public void setPreco(double preco) {
-        this.preco = preco;
-
     }
 }
