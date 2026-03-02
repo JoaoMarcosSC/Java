@@ -14,6 +14,13 @@ public class ArquiteturaspringApplication {
 
 		builder.run(args);
 
+		/*
+
+
+		Aula: 34
+		Minuto: 0:01
+		 */
+
 	}
 
 }
