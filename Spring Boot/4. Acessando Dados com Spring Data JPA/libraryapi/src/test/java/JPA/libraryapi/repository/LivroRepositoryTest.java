@@ -3,12 +3,14 @@ package JPA.libraryapi.repository;
 import JPA.libraryapi.model.Autor;
 import JPA.libraryapi.model.GeneroLivro;
 import JPA.libraryapi.model.Livro;
+import jakarta.transaction.Transactional;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.List;
 import java.util.UUID;
 
 @SpringBootTest
@@ -109,5 +111,29 @@ public class LivroRepositoryTest {
         System.out.println("Autor: " + livro.getAutor().getNome());
 
     }
+
+    @Test
+    void pesquisaPorTituloTest(){
+        List<Livro> lista = repository.findByTitulo("O roubo da casa assombrada");
+        lista.forEach(System.out::println);
+    }
+
+
+    @Test
+    void pesquisaPorISBNTest(){
+        List<Livro> lista = repository.findByIsbn("20847-84874");
+        lista.forEach(System.out::println);
+    }
+
+
+    @Test
+    void pesquisaPorTituloEPrecoTest(){
+        var preco = BigDecimal.valueOf(204.00);
+        var tituloPesquisa = "O roubo da casa assombrada";
+
+        List<Livro> lista = repository.findByTituloAndPreco(tituloPesquisa, preco);
+        lista.forEach(System.out::println);
+    }
+
 
 }

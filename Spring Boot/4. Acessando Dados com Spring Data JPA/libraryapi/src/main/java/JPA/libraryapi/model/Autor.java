@@ -11,7 +11,7 @@ import java.util.UUID;
 @Entity
 @Table
 @Getter @Setter
-@ToString
+@ToString(exclude = "livros")
 @EqualsAndHashCode
 @RequiredArgsConstructor
 public class Autor {

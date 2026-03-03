@@ -14,14 +14,12 @@ public class Application {
 	}
 
 	/*
-	LivroTest
-	atualizar--
-	deletar
-	buscar livro
-	imprimir nome e autor
+	LivroRepository
+	listartodos
+	query
 
-	Livro
-	fetch
+	LivroTest
+	foreach
 
 	Aula: 64
 	Minuto: 0:01
