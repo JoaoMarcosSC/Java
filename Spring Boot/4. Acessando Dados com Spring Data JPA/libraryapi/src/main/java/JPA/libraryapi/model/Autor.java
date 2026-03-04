@@ -3,8 +3,12 @@ package JPA.libraryapi.model;
 
 import jakarta.persistence.*;
 import lombok.*;
+import org.springframework.data.annotation.CreatedDate;
+import org.springframework.data.annotation.LastModifiedDate;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.UUID;
 
@@ -14,6 +18,7 @@ import java.util.UUID;
 @ToString(exclude = "livros")
 @EqualsAndHashCode
 @RequiredArgsConstructor
+@EntityListeners(AuditingEntityListener.class)
 public class Autor {
 
     @Column
@@ -33,6 +38,17 @@ public class Autor {
 
     @OneToMany(mappedBy = "autor")
     List<Livro> livros;
+
+    @CreatedDate
+    @Column(name = "data_cadastro")
+    private LocalDateTime dataCadastro;
+
+    @LastModifiedDate
+    @Column(name = "data_atualizacao")
+    private LocalDateTime dataAtualizacao;
+
+    @Column(name = "id_usuario")
+    private UUID idUsuario;
 
 
 }

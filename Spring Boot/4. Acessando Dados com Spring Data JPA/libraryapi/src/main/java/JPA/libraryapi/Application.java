@@ -2,10 +2,12 @@ package JPA.libraryapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 import java.time.LocalDate;
 
 @SpringBootApplication
+@EnableJpaAuditing
 public class Application {
 
 	public static void main(String[] args) {
@@ -14,14 +16,19 @@ public class Application {
 	}
 
 	/*
-	LivroRepository
-	listartodos
-	query
+	ErroCampo
+	campo, erro
 
-	LivroTest
-	foreach
+	ErroResposta
+	status, mensagem, ErroCampo
+	static respostaPadrao
+	conflito
 
-	Aula: 64
+	Postman
+
+	Banco
+
+	Aula: 85
 	Minuto: 0:01
 	 */
 
