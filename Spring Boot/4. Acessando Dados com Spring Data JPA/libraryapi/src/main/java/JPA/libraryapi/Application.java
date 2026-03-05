@@ -16,20 +16,16 @@ public class Application {
 	}
 
 	/*
-	ErroCampo
-	campo, erro
-
-	ErroResposta
-	status, mensagem, ErroCampo
-	static respostaPadrao
-	conflito
+	AutorDTO
+	@Size
+	@Past
 
 	Postman
 
 	Banco
 
-	Aula: 85
-	Minuto: 0:01
+	Aula: 93
+	Minuto: 10:35
 	 */
 
 }

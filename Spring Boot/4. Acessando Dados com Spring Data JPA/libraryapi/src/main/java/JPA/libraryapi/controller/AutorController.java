@@ -3,6 +3,7 @@ package JPA.libraryapi.controller;
 import JPA.libraryapi.controller.dto.AutorDTO;
 import JPA.libraryapi.model.Autor;
 import JPA.libraryapi.service.AutorService;
+import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -26,7 +27,7 @@ public class AutorController {
     }
 
     @PostMapping
-    public ResponseEntity<Void> salvar(@RequestBody AutorDTO autor) {
+    public ResponseEntity<Void> salvar(@RequestBody @Valid AutorDTO autor) {
         var autorEntidade = autor.mapearParaAutor();
         autorService.salvar(autorEntidade);
         URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(autorEntidade.getId()).toUri();

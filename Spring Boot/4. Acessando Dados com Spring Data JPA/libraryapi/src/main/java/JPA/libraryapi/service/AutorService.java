@@ -2,6 +2,7 @@ package JPA.libraryapi.service;
 
 import JPA.libraryapi.model.Autor;
 import JPA.libraryapi.repository.AutorRepository;
+import JPA.libraryapi.validator.AutorValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
@@ -16,9 +17,12 @@ public class AutorService {
 
     @Autowired
     private AutorRepository autorRepository;
+    @Autowired
+    private AutorValidator autorValidator;
 
-    public AutorService(AutorRepository autorRepository) {
+    public AutorService(AutorRepository autorRepository, AutorValidator autorValidator) {
         this.autorRepository = autorRepository;
+        this.autorValidator = autorValidator;
     }
 
     public Autor salvar(Autor autor){
